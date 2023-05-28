@@ -1,0 +1,2 @@
+-> canActivate - control access to a route.
+-> canDeactivate - control of whether you are allowed to leave a route or not.

@@ -1,0 +1,14 @@
+Angular Dependency Injector is a Hierarchical Injector.
+
+Service is added to the 'providers' :- (in)
+
+AppModule
+  -> Same Instance of Service is available Application-Wide (can be used in other services, directives, components...).
+AppComponent
+  -> Same Instance of Service is available for all Components (but not for other Services).
+Any other Component
+  -> Same instance of Service is available for the Component and all its child components (but not for other Services).
+     This instance will override if we were to provide the same service on a higher level.
+
+
+The instances don't propagate up, they only go down the tree of components.

@@ -1,0 +1,4 @@
+Any data, any information that controls what should be visible on the screen, is state.
+Redux - State Management Pattern
+Reducers - Synchronous code
+Actions that you dispatch reaches all reducers

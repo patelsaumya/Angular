@@ -1,0 +1,10 @@
+Lifecycle Hooks
+
+-> ngOnChanges: Called after a bound input property changes
+-> ngOnInit: Called once the component is initialized. It will run after the constructor.
+-> ngDoCheck: Called during every change detection run.
+-> ngAfterContentInit: Called after content (ng-content) has been projected into view.
+-> ngAfterContentChecked: Called everytime the projected content has been checked.
+-> ngAfterViewInit: Called after the component's view (and child views) has been initialized.
+-> ngAfterViewChecked: Called everytime the view (and child views) have been checked (by Change Detection Cycle).
+-> ngOnDestroy: Called once the component is about to be destroyed.

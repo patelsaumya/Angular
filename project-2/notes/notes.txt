@@ -1,0 +1,11 @@
+Default is Eager-Loading.
+
+Lazy-Loading is more performant.
+  - no need to load RecipesModule when you're not authenticated.
+  - load ShoppingListModule when you click the "Shopping List" link.
+  - get rid-off all unused imports in your module file.
+
+If you have some page which will always be visited or with a very high chance then lazy loading that page or that module might not be worth it, because you have to consider that lazy-loading comes with the downside of that extra code bundle being downloaded later.
+And therefore, once it's needed there might be a slight delay in your app since that code needs to be downloaded and parsed.
+
+RxJS : Push-Subscribe Mechanism
